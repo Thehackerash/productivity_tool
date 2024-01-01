@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+    font-family: 'GameFont', sans-serif;
+    background-color: #444446;
+}
+
+main {
+    display: flex;
+    height: calc(100vh - 60px); /* Adjust for the header height */
+}
+
+.column {
+    flex: 1;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+#academics {
+    background-color: #1a1a21;
+}
+
+#health {
+    background-color: #073950;
+}
+
+h1, h2 {
+    color: #2cb4a2;
+}
+
+/* Reset some default styles for consistency */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the header */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    position: relative;
+}
+
+/* Style the navigation bar */
+nav {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Style the total points section */
+#totalPoints {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Add more styles as needed */

@@ -1,0 +1,40 @@
+body {
+    background-color: #3e4261; /* Light gray background */
+    font-family: 'GameFont', sans-serif; /* Use a game-like font (replace 'GameFont' with the actual font name) */
+}
+
+header {
+    background-color: #333; /* Dark gray header background */
+    color: #fff; /* White text color */
+    padding: 20px;
+    text-align: center;
+}
+
+#totalPoints {
+    font-size: 18px;
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.reward-category {
+    background-color: #ffb347; /* Orange background for Episode category */
+    color: #333; /* Dark gray text color */
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    width: 30%;
+    margin: 10px;
+}
+
+/* Customize styles for each category */
+.reward-category:nth-child(2) {
+    background-color: #77dd77; /* Light green background for Walk category */
+}
+
+.reward-category:nth-child(3) {
+    background-color: #aec6cf; /* Light blue background for Timepass category */
+}

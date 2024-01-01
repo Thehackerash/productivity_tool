@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    font-family: 'GameFont', sans-serif;
+    background-color: #fff;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+}
+
+main {
+    display: flex;
+    height: calc(100vh - 60px); /* Adjust for the header height */
+}
+
+.partition {
+    flex: 1;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+#acads {
+    background-color: #460606; /* Adjust color as needed */
+}
+
+#coding {
+    background-color: #033a53; /* Adjust color as needed */
+}
+
+h1, h2 {
+    color: #618708;
+}
+
+/* Add more styles as needed */

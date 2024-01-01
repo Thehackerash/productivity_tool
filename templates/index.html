@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+    <style id="theme-style"></style>
+    <title>Your Life Gamified</title>
+</head>
+<body>
+    <header>
+        <h1>Your Life Gamified</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="{{url_for('rewards')}}">Rewards</a></li>
+                <li><a href="{{url_for('todo')}}">Todo</a></li>
+            </ul>
+        </nav>
+        <div id="totalPoints">Total Points: <span id="points">{{total_points}}</span></div>
+    </header>
+
+    <main>
+        <section class="column" id="academics">
+            <a href="{{url_for('academics')}}">
+                <h2>Academics</h2>
+                <p>Click to focus on your academic goals and progress!</p>
+            </a>
+        </section>
+
+        <section class="column" id="health">
+            <a href="{{url_for('health')}}">
+                <h2>Health</h2>
+                <p>Click to focus on your health and well-being!</p>
+            </a>
+        </section>
+    </main>
+    <script>
+        let totalPoints = 0;
+
+        function updatePoints(section, points) {
+           // totalPoints += points;
+            document.getElementById('points').innerText = totalPoints;
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,2 @@
+flask latest version
+sqlalchemy latest version

@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    font-family: 'GameFont', sans-serif;
+    background-color: #fff;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+}
+
+main {
+    display: flex;
+    height: calc(100vh - 60px); /* Adjust for the header height */
+}
+
+.partition {
+    flex: 1;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+#diet {
+    background-color: #245d44; /* Adjust color as needed */
+}
+
+#workout {
+    background-color: #6a7306; /* Adjust color as needed */
+}
+
+h1, h2 {
+    color: #b22a55;
+}
+
+/* Add more styles as needed */
