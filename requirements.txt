@@ -1,2 +1,2 @@
-flask latest version
-sqlalchemy latest version
+flask latest version 3.x
+sqlalchemy latest version 3.1.x
