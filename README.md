@@ -1,2 +1,3 @@
 # productivity tool
 feel free to contribute....
+currently todo list and point system is working. if you want to add any feature just fork the repo and check for the requirements.
